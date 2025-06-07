@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Manager - LocalStorage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📝 Task Manager</h1>
+
+    <form id="task-form">
+      <input type="hidden" id="task-id" />
+      <label>Title:</label>
+      <input type="text" id="title" required />
+      <label>Description:</label>
+      <textarea id="description" required></textarea>
+      <label>Due Date:</label>
+      <input type="date" id="dueDate" required />
+      <button type="submit">Save Task</button>
+    </form>
+
+    <h2>📋 Task List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Due</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="task-list"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
