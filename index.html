@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Task Manager - LocalStorage</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Task Manager - LocalStorage</title>
+    <link rel="stylesheet" type="text/css"  href="style.css" />
 </head>
-<body>
-  <div class="container">
-    <h1> Task Manager</h1>
 
-    <form id="task-form">
-      <input type="hidden" id="task-id" />
-      <label>Title:</label>
-      <input type="text" id="title" required />
-      <label>Description:</label>
-      <textarea id="description" required></textarea>
-      <label>Due Date:</label>
-      <input type="date" id="dueDate" required />
-      <button type="submit">Save Task</button>
-    </form>
+    <body>
+         <div class="container">
+            <h1> Task Mate </h1>
+    
+ <!--------------------Task Form ------------------>
+            <form id="task-form">
+                <input type="hidden" id="task-id" />
+                <label>Title:</label>
+                <input type="text" id="title" required />
+                <label>Description:</label>
+                <textarea id="description" required></textarea>
+                <label>Due Date:</label>
+                <input type="date" id="dueDate" required />
+                <button type="submit">Save Task</button>
+            </form>
+<!--------------End of Task Form ------------------>
 
-    <h2>Task List</h2>
+    <h2>Task List </h2>
     <table>
       <thead>
         <tr>
@@ -34,7 +37,13 @@
       <tbody id="task-list"></tbody>
     </table>
   </div>
+<!-- End of Task List Management -->
 
-  <script src="script.js"></script>
+        <!---------------FOOTER------------------------------->
+    <div class="footer">
+        <p>TaskMate App &copy; 2025</p>
+    </div>
+  <script type="text/script" src="script.js"></script>
+
 </body>
 </html>

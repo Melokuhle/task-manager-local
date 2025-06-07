@@ -1,0 +1,66 @@
+
+/**********************STYLE OUR BODY****************************/
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/****************************CONTAINER****************************/
+.container {
+  background: white;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+/***********************HEADING TAG H1,H2****************************/
+h1, h2 {
+  text-align: center;
+}
+/********************************FORM********************************/
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+/**********************FORM INPUT/ TEXTAREA/ FORM BUTTON**************/
+form input, form textarea, form button {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+/***********************************TABLE****************************/
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/*******************************TABLE TH TABLE TD*******************/
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+/**********************************BUTTON***************************/
+button {
+  cursor: pointer;
+}
+/*******************************.ACTION-BUTTON*********************/
+.action-btn {
+  margin-right: 5px;
+  padding: 5px 10px;
+}
+
+.action-btn:hover {
+  background-color: #9b4f4f;
+}
+
+p {
+  text-align: center;
+    margin-top: 20px;
+
+}
